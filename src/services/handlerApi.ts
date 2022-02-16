@@ -5,6 +5,7 @@ interface Props {
 }
 
 
+
 export const handlerApiAsync = async ({ execute }: Props) => {
   try {
     const { data } = await execute();
